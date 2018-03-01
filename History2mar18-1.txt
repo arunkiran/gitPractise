@@ -1,0 +1,56 @@
+    1  id
+    2  cat >> a.txt
+    3  git status
+    4  git init
+    5  git status
+    6  git add a.txt
+    7  git status
+    8  history
+    9  clear
+   10  git commit -m "adding a file: 1st file"
+   11  git config --global user.name "arunkirant"
+   12  git config --global user.email "kiran.arun22@gmail.com"
+   13  git config --list
+   14  git status
+   15  git commit -m "adding a file: 1st file"
+   16  git status
+   17  git remote -v
+   18  git remote add origin https://github.com/arunkiran/gitPractise.git
+   19  git remote -v
+   20  git log
+   21  vim b.txt
+   22  cat b.txt
+   23  git status
+   24  git add .
+   25  git status
+   26  vi a.txt
+   27  git status
+   28  vi c.txt
+   29  git status
+   30  git add .
+   31  git status
+   32  git commit -a -m "added b and c files in this commit"
+   33  git status
+   34  git log
+   35  git commit --amend
+   36  git status
+   37  git log
+   38  cat >> d.txt
+   39  cat >> e.txt
+   40  history
+   41  git add -a
+   42  git add -A
+   43  git status
+   44  git commit -am "Adding 2 files"
+   45  git log
+   46  git commit --amend -m "adding d and e files in this commit"
+   47  git log
+   48  cat >> f.txt
+   49  cat >> g.txt
+   50  git add -all
+   51  git add --all
+   52  git status
+   53  git commit -am "f & g files added in this commit"
+   54  git status
+   55  git log
+   56  history >> History2mar18-1.txt
