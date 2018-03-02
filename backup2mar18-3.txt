@@ -1,0 +1,282 @@
+    1  id
+    2  cat >> a.txt
+    3  git status
+    4  git init
+    5  git status
+    6  git add a.txt
+    7  git status
+    8  history
+    9  clear
+   10  git commit -m "adding a file: 1st file"
+   11  git config --global user.name "arunkirant"
+   12  git config --global user.email "kiran.arun22@gmail.com"
+   13  git config --list
+   14  git status
+   15  git commit -m "adding a file: 1st file"
+   16  git status
+   17  git remote -v
+   18  git remote add origin https://github.com/arunkiran/gitPractise.git
+   19  git remote -v
+   20  git log
+   21  vim b.txt
+   22  cat b.txt
+   23  git status
+   24  git add .
+   25  git status
+   26  vi a.txt
+   27  git status
+   28  vi c.txt
+   29  git status
+   30  git add .
+   31  git status
+   32  git commit -a -m "added b and c files in this commit"
+   33  git status
+   34  git log
+   35  git commit --amend
+   36  git status
+   37  git log
+   38  cat >> d.txt
+   39  cat >> e.txt
+   40  history
+   41  git add -a
+   42  git add -A
+   43  git status
+   44  git commit -am "Adding 2 files"
+   45  git log
+   46  git commit --amend -m "adding d and e files in this commit"
+   47  git log
+   48  cat >> f.txt
+   49  cat >> g.txt
+   50  git add -all
+   51  git add --all
+   52  git status
+   53  git commit -am "f & g files added in this commit"
+   54  git status
+   55  git log
+   56  history >> History2mar18-1.txt
+   57  git status
+   58  git commit -m
+   59  git commit -a
+   60  git status
+   61  git add .
+   62  git commit -a
+   63  git log
+   64  exit
+   65  history
+   66  cat >> 1.txt
+   67  cat >> 2.txt
+   68  git diff
+   69  git help diff
+   70  git add .
+   71  git reset
+   72  git status
+   73  git add -A
+   74  git status
+   75  git reset 1.txt
+   76  git status
+   77  git checkout 
+   78  git status
+   79  git checkout
+   80  git status
+   81  git checkout -- 2.txt
+   82  git status
+   83  git reset HEAD 2.txt
+   84  git status
+   85  git add --all
+   86  git status
+   87  git reset -- 1.txt 2.txt
+   88  git status
+   89  git add .
+   90  git status
+   91  git commit -m "1 & 2 files added in this commit"
+   92  git status
+   93  git log
+   94  git log~2
+   95  git log -2
+   96  git log
+   97  git log -2 -4
+   98  git log -4
+   99  git log -2 2
+  100  git log 2 -2
+  101  git log -- -2
+  102  git log -- 2
+  103  git log -- -2 -4
+  104  git log
+  105  git checkout -- 1.txt
+  106  git status
+  107  git log
+  108  ls -l
+  109  sed 's\first\1st\g' -i 1.txt
+  110  ls
+  111  cat 1.txt
+  112  git status
+  113  git add .
+  114  git commit -m "changed first to 1st in 1.txt file"
+  115  git log
+  116  git show 9a293306
+  117  git revert 9a293306
+  118  git log
+  119  git reset --soft HEAD^
+  120  git log
+  121  cat >> 3.txt
+  122  git add --all
+  123  clear
+  124  git commit -m "3rd file added in this commit"
+  125  git log
+  126  git log -1
+  127  git reset --hard b039b8da
+  128  git status
+  129  git log
+  130  git revert b039b8da
+  131  git log -3
+  132  git reset --hard b039b8da
+  133  git log -3
+  134  cat >> 4.txt 5.txt
+  135  cat >> 4.txt
+  136  cat >> 5.txt
+  137  clear
+  138  git status
+  139  git add .
+  140  git commit -a "thank you for creating 4 & 5 th files"
+  141  git status
+  142  git commit -ma "thank you for creating 4 & 5th files"
+  143  git commit -m "thank you for creating 4 & 5th files"
+  144  git status
+  145  vi 5.txt
+  146  git status
+  147  git checkout -- 5.txt
+  148  git status
+  149  cat 5.txt
+  150  cat >> 7.txt
+  151  git checkout -- 7.txt
+  152  git status
+  153  git add 7.txt
+  154  git status
+  155  git checkout -- 7.txt
+  156  git status
+  157  vi 7.txt
+  158  git status
+  159  git checkout -- 7.txt
+  160  git status
+  161  git commit -m "seventh file added"
+  162  vi 7.txt
+  163  git status
+  164  git checkout -- 7.txt
+  165  git status
+  166  cat 7.txt
+  167  git status
+  168  cat 4.txt
+  169  cat 7.txt
+  170  cat 5.txt
+  171  cat 6.txt
+  172  ls -l
+  173  git status
+  174  history
+  175  cat >> 6.txt
+  176  git add .
+  177  git commit -m "sixth file added in this commit"
+  178  vi 6.txt
+  179  git status
+  180  git add .
+  181  git commit -m "modified 6th file in this commit"
+  182  git log
+  183  git log -2
+  184  git reset
+  185  git log -2
+  186  cat 6.txt
+  187  git reset -- 6.txt
+  188  git log -2
+  189  cat 6.txt
+  190  vi 7.txt
+  191  git add .
+  192  git commit -m "modfied 7th file here"
+  193  git rebase
+  194  git reset
+  195  git log -4
+  196  git reset --hard 0045dbf0
+  197  git log -4
+  198  cat 7.txt
+  199  vi 7.txt
+  200  clear
+  201  git reset --hard 0045dbf0
+  202  git log -4
+  203  cat 7.txt
+  204  git reset --hard  c63c0985
+  205  git log -5
+  206  cat 7.txt
+  207  git branch
+  208  git revert 0045dbf03
+  209  cat 7.txt
+  210  git reset --hard 0045dbf03
+  211  cat 7.txt
+  212  git log -7
+  213  git branch
+  214  git revert c63c09851be
+  215  git status
+  216  cat 7.txt
+  217  git reset --soft HEAD^
+  218  cat 7.txt
+  219  git commit -m "7th file done reset hard 
+dsfsd
+
+  220  clear
+  221  history
+  222  git commit -m "7th file done reset hard nd tried to revert and reset soft but showed error"
+  223  history
+  224  git status
+  225  git commit -m "7th file done reset hard"
+  226  git status
+  227  git revert --abort
+  228  git status
+  229  cat 7.txt
+  230  git log -5
+  231  git reset --hard c63c09851be
+  232  git status
+  233  cat 7.txt
+  234  git revert --continue
+  235  git revert --abort
+  236  history
+  237  git diff 0045dbf0 c63c09851be
+  238  git show c63c09851be
+  239  gi show 0045dbf0
+  240  git show 0045dbf0
+  241  cat 7.txt
+  242  git log -7
+  243  history >> History2mar18-2
+  244  history >> History2mar18-2.txt
+  245  vi .gitignore
+  246  clear
+  247  git status
+  248  vi .gitignore
+  249  git status
+  250  vi .gitignore
+  251  git status
+  252  vi .gitignore
+  253  git status
+  254  git push origin master
+  255  git remote -v
+  256  git config --list
+  257  git config --global user.name "arunkirant"
+  258  git config --global user.email kiran.arun22@gmail.com
+  259  git config --list
+  260  git push origin master
+  261  git push origin master
+  262  ssh-keygen
+  263  cat c/Users/Administrator/.ssh/id_rsa.pub
+  264  cat /c/Users/Administrator/.ssh/id_rsa.pub
+  265  git push origin master
+  266  git config --global user.name arunkirant
+  267  git config --global user.email kiran.arun22@gmail.com
+  268  git config --list
+  269  git remote add origin1 git@github.com:arunkiran/gitPractise.git
+  270  git remote -v
+  271  git push origin1 master
+  272  history
+  273  history >> History2mar18-3.txt
+  274  git status
+  275  rm ~$story2mar18-1.txt
+  276  ls -l
+  277  git status
+  278  clear
+  279  git push origin1 master
+  280  history >> backup2mar18-3.txt
